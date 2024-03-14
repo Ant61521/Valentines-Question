@@ -1,0 +1,44 @@
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.text, .yesButton, .noButton {
+  margin: 10px; 
+  text-align: center;
+}
+
+.text, .yesButton, .noButton {
+  margin: 10px;
+}
+
+.yesButton, .noButton {
+  cursor: pointer; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px;
+}
+
+.yesButton {
+  background-color: #ffcccc; 
+  color: white; 
+}
+
+.noButton {
+  background-color: #ccccff;
+  color: white; 
+}
+body {
+  background-color: #ffb6c1;
+}
+
+
+
